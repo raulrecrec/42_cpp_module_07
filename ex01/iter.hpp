@@ -6,9 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 23:31:40 by rexposit          #+#    #+#             */
-/*   Updated: 2026/09/29 23:48:27 by rexposit         ###   ########.fr       */
+/*   Updated: 2026/09/30 00:20:56 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#ifndef ITER_HPP
+# define ITER_HPP
 
 #include <cstddef>
 
@@ -24,3 +27,5 @@ void	iter(T *array, const size_t len, F f)
 		i++;
 	}
 }
+
+#endif
