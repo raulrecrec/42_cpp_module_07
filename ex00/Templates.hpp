@@ -6,9 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 22:50:53 by rexposit          #+#    #+#             */
-/*   Updated: 2026/09/29 23:06:45 by rexposit         ###   ########.fr       */
+/*   Updated: 2026/09/30 00:21:21 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#ifndef TEMPLATES_HPP
+# define TEMPLATES_HPP
 
 template <typename T>
 void	swap(T &a, T &b)
@@ -37,3 +40,5 @@ const T	&max(const T &a, const T &b)
 	else
 		return (b);
 }
+
+#endif
