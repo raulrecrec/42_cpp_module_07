@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 22:45:34 by rexposit          #+#    #+#             */
-/*   Updated: 2026/09/29 23:09:52 by rexposit         ###   ########.fr       */
+/*   Updated: 2026/09/29 23:12:40 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <string>
 #include <iostream>
 
-int main( void ) 
+int	main(void)
 {
 	int a;
 	int b;
