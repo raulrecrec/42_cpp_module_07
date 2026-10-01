@@ -49,6 +49,12 @@ int	main(void)
 	std::cout << "Original: " << numbers[1] << std::endl;
 	std::cout << "Assigned: " << assigned[1] << std::endl;
 
+	std::cout << "\nConst array:" << std::endl;
+
+	const Array<int>	const_numbers(numbers);
+
+	std::cout << "const_numbers[0] = " << const_numbers[0] << std::endl;
+
 	std::cout << "\nString array:" << std::endl;
 
 	Array<std::string>	words(3);
