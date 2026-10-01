@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 00:04:58 by rexposit          #+#    #+#             */
-/*   Updated: 2026/10/01 15:43:14 by rexposit         ###   ########.fr       */
+/*   Updated: 2026/10/01 15:47:26 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ class	Array
 		~Array();
 
 		T			&operator[](unsigned int index);
-		const T		&operator[](unsigned int index);
+		const T		&operator[](unsigned int index) const;
 		unsigned int	size() const;
 };
 
